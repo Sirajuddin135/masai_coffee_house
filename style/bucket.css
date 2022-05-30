@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+}
+
+#total_amount {
+    padding: 20px;
+    background-color: chocolate;
+    text-align: right;
+    color: white;
+}
+
+#confirm_checkout {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    background-color: blue;
+    padding: 20px 25px;
+    margin-left: 600px;
+    border-radius: 20px;
+}
+
+#confirm_checkout:active {
+    transform: scale(0.98);
+}
+
+#bucket {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#bucket>div {
+    margin: 10px;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 25px;
+}
+
+#bucket>div>img {
+    width: 310px;
+    height: 300px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+#remove_coffee {
+    padding: 20px 125px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 16px;
+    border: 0;
+    margin-top: 10px;
+}
+
+#remove_coffee:active {
+    transform: scale(0.98);
+}
